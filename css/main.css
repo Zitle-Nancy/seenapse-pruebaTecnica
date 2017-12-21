@@ -10,30 +10,42 @@ body {
 	width: 80%;
 	height: 100vh;
 }
+.standar {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	border: 10px #d5de3d solid;
+}
 .container-ponyo{
 	width: 164px;
 	height: 164px;
 	background-image: url(/img/ponyo.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	position: absolute;
 	top: calc(50% - 82px);
-	left: 164px;
-}
-.circulo{
-	border-radius: 50%;
-	border: 10px #d5de3d solid;
+	left: calc(50% - 82px);
 }
 .container-starbucks {
-	width: 164px;
-	height: 164px;
 	background-image: url(/img/vaso.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	position: absolute;
-	top: calc(50% - 82px);
+	top: calc(50% - 50px);
+	left: calc(50% - 182px);
 }
-
+.container-parallel {
+	background-image: url(/img/parallel.jpg);
+	top: calc(50% - 50px);
+	left: calc(50% + 82px);
+}
+.container-rigo {
+	background-image: url(/img/rigo.jpg);
+	top: calc(50% - 182px);
+	left: calc(50% - 50px);
+}
+.container-totoro {
+	background-image: url(/img/totoro.jpg);
+	top: calc(50% + 82px);
+	left: calc(50% - 50px);
+}
 .borde1 {
 	border: solid red 1px;
 }
