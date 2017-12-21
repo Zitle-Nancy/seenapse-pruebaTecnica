@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.container-generaly {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	height: 100vh;
+}
+.container-ponyo{
+	width: 164px;
+	height: 164px;
+	background-image: url(/img/ponyo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: calc(50% - 82px);
+	left: 164px;
+}
+.circulo{
+	border-radius: 50%;
+	border: 10px #d5de3d solid;
+}
+.container-starbucks {
+	width: 164px;
+	height: 164px;
+	background-image: url(/img/vaso.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: calc(50% - 82px);
+}
+
+.borde1 {
+	border: solid red 1px;
+}
+.borde2 {
+	border: solid blue 1px;
+}
+.borde3 {
+	border: solid green 1px;
+}
+.borde4 {
+	border: solid purple 1px;
+}
