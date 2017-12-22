@@ -46,11 +46,6 @@ body {
 	top: calc(50% - 182px);
 	left: calc(50% - 50px);
 }
-.container-rigo {
-	background-image: url(/img/rigo.jpg);
-	top: calc(50% - 182px);
-	left: calc(50% - 50px);
-}
 .container-totoro {
 	background-image: url(/img/totoro.jpg);
 	top: calc(50% + 60px);
@@ -66,15 +61,36 @@ body {
 	top: calc(50% - 150px);
 	left: calc(50% + 50px);
 }
-.borde1 {
-	border: solid red 1px;
+.text-img {
+	position: absolute;
+	font-size: 14px;
+	font-family: 'helvetica';
 }
-.borde2 {
-	border: solid blue 1px;
+.text-rigo {
+	top: calc(50% - 200px);
+	left: calc(50% - 45px);
 }
-.borde3 {
-	border: solid green 1px;
+.text-another {
+	top: calc(50% - 130px);
+	left: calc(50% - 240px);
 }
-.borde4 {
-	border: solid purple 1px;
+.text-starbucks {
+	top: calc(50% - 10px);
+	left: calc(50% - 255px);
+}
+.text-paul {
+	top: calc(50% - 170px);
+	left: calc(50% + 60px);
+}
+.text-parallel {
+	top: calc(50% - 30px);
+	left: calc(50% + 182px);
+}
+.text-totoro {
+	top: calc(50% + 100px);
+	left: calc(50% + 125px);
+}
+.text-cinnamon {
+	top: calc(50% + 160px);
+	left: calc(50% - 160px);
 }
