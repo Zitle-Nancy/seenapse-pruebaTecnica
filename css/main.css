@@ -46,6 +46,16 @@ body {
 	top: calc(50% + 82px);
 	left: calc(50% - 50px);
 }
+.container-cinammon{
+	background-image: url(/img/cinammon.jpg);
+	top: calc(50% + 50px);
+	left: calc(50% - 150px);
+}
+.container-paul {
+	background-image: url(/img/paul.jpg);
+	top: calc(50% + 50px);
+	left: calc(50% + 50px);
+}
 .borde1 {
 	border: solid red 1px;
 }
