@@ -1,0 +1,119 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+h2 {
+	font-size: 24px;
+	font-family: 'helvetica';
+	color: #9578c2;
+}
+ul {
+	float: right;
+}
+li {
+	display: inline-block;
+	list-style: none;
+	margin: 5px 10px;
+	font-weight: bold;
+	font-size: 10px;
+	color: #6c6c6c;
+}
+.container-generaly {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	height: 100vh;
+}
+.standar {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	border: 10px #d5de3d solid;
+}
+.container-ponyo{
+	width: 164px;
+	height: 164px;
+	background-image: url(/img/ponyo.jpg);
+	top: calc(50% - 82px);
+	left: calc(50% - 82px);
+}
+.container-starbucks {
+	background-image: url(/img/vaso.jpg);
+	top: calc(50% - 50px);
+	left: calc(50% - 182px);
+}
+.container-parallel {
+	background-image: url(/img/parallel.jpg);
+	top: calc(50% - 50px);
+	left: calc(50% + 82px);
+}
+.container-another {
+	background-image: url(/img/another.jpg);
+	top: calc(50% - 150px);
+	left: calc(50% - 150px);
+}
+.container-rigo {
+	background-image: url(/img/rigo.jpg);
+	top: calc(50% - 182px);
+	left: calc(50% - 50px);
+}
+.container-totoro {
+	background-image: url(/img/totoro.jpg);
+	top: calc(50% + 60px);
+	left: calc(50% + 25px);
+}
+.container-cinammon{
+	background-image: url(/img/cinammon.jpg);
+	top: calc(50% + 60px);
+	left: calc(50% - 125px);
+}
+.container-paul {
+	background-image: url(/img/paul.jpg);
+	top: calc(50% - 150px);
+	left: calc(50% + 50px);
+}
+.text-img {
+	position: absolute;
+	font-size: 14px;
+	font-family: 'helvetica';
+}
+.text-rigo {
+	top: calc(50% - 200px);
+	left: calc(50% - 45px);
+}
+.text-another {
+	top: calc(50% - 130px);
+	left: calc(50% - 240px);
+}
+.text-starbucks {
+	top: calc(50% - 10px);
+	left: calc(50% - 255px);
+}
+.text-paul {
+	top: calc(50% - 170px);
+	left: calc(50% + 60px);
+}
+.text-parallel {
+	top: calc(50% - 30px);
+	left: calc(50% + 182px);
+}
+.text-totoro {
+	top: calc(50% + 100px);
+	left: calc(50% + 125px);
+}
+.text-cinnamon {
+	top: calc(50% + 160px);
+	left: calc(50% - 160px);
+}
+.logo {
+	margin-top: 2%;
+}
+.logo > img{
+	width: 160px;
+	height: 48px;
+}
