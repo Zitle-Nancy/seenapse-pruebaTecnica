@@ -38,42 +38,42 @@ li {
 .container-ponyo{
 	width: 164px;
 	height: 164px;
-	background-image: url(/img/ponyo.jpg);
+	background-image: url(./img/ponyo.jpg);
 	top: calc(50% - 82px);
 	left: calc(50% - 82px);
 }
 .container-starbucks {
-	background-image: url(/img/vaso.jpg);
+	background-image: url(./img/vaso.jpg);
 	top: calc(50% - 50px);
 	left: calc(50% - 182px);
 }
 .container-parallel {
-	background-image: url(/img/parallel.jpg);
+	background-image: url(./img/parallel.jpg);
 	top: calc(50% - 50px);
 	left: calc(50% + 82px);
 }
 .container-another {
-	background-image: url(/img/another.jpg);
+	background-image: url(./img/another.jpg);
 	top: calc(50% - 150px);
 	left: calc(50% - 150px);
 }
 .container-rigo {
-	background-image: url(/img/rigo.jpg);
+	background-image: url(./img/rigo.jpg);
 	top: calc(50% - 182px);
 	left: calc(50% - 50px);
 }
 .container-totoro {
-	background-image: url(/img/totoro.jpg);
+	background-image: url(./img/totoro.jpg);
 	top: calc(50% + 60px);
 	left: calc(50% + 25px);
 }
 .container-cinammon{
-	background-image: url(/img/cinammon.jpg);
+	background-image: url(./img/cinammon.jpg);
 	top: calc(50% + 60px);
 	left: calc(50% - 125px);
 }
 .container-paul {
-	background-image: url(/img/paul.jpg);
+	background-image: url(./img/paul.jpg);
 	top: calc(50% - 150px);
 	left: calc(50% + 50px);
 }
